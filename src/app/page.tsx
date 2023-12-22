@@ -10,7 +10,7 @@ export default async function Home() {
   return (
     <main className="max-w-[600px] m-auto px-2 py-4">
       <ul className="space-y-2">
-        {codesData.map(({ code, id }) => {
+        {codesData.map(({ code, _id: id }) => {
           const link =
             "https://discord.com/billing/partner-promotions/1180231712274387115/" +
             code;
